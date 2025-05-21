@@ -10,7 +10,7 @@ import 'package:nexa_app/profile.dart'; // ProfileScreen
 
 void main() {
   runApp(const MaterialApp(
-    home: StoryScreen(),
+    home: LoginScreen(),
     // if u dont have navigate yet, pero want to check, change niyo dito
     // basta ang default is LoginScreen
   ));
