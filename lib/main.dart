@@ -5,12 +5,14 @@ import 'package:nexa_app/story.dart'; // StoryScreen
 import 'package:nexa_app/messages.dart'; // MessagesScreen
 import 'package:nexa_app/settings.dart'; // SettingsScreen
 import 'package:nexa_app/profile.dart'; // ProfileScreen
+import 'package:nexa_app/accountcenter.dart'; // AccountCenterScreen
+import 'package:nexa_app/changepassword.dart'; // ChangePasswordScreen
 
 
 
 void main() {
   runApp(const MaterialApp(
-    home: LoginScreen(),
+    home: SettingsScreen(),
     // if u dont have navigate yet, pero want to check, change niyo dito
     // basta ang default is LoginScreen
   ));
